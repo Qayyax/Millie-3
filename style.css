@@ -1,0 +1,42 @@
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-color: pink;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.text-holder {
+  margin-bottom: 10px;
+}
+.Text {
+  font-size: 6rem;
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px;
+}
+.fa-heart {
+  color: blue;
+}
+
+button {
+  background-color: rgb(216, 131, 198);
+  border: solid black;
+  border-radius: 10px;
+  width: 9rem;
+  height: 4rem;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+}
+
+button:hover {
+  background-color: white;
+}

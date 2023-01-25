@@ -10,7 +10,11 @@ body {
   flex-direction: column;
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 70px;
+  /* margin: auto; */
+  border: 5px solid black;
+  border-radius: 10px;
+  padding-bottom: 50px;
 }
 
 .text-holder {
@@ -21,6 +25,13 @@ body {
   text-align: center;
   margin: 30px;
   margin-top: 50px;
+}
+
+.text2 {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding: 15px;
 }
 .fa-heart {
   color: blue;
@@ -35,6 +46,10 @@ button {
   font-size: 20px;
   cursor: pointer;
   display: block;
+}
+
+a {
+  text-decoration: none;
 }
 
 button:hover {
